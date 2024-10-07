@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"><!--makes it possible to use emojis and other characters outside of the ASCII character set on your webpage.-->
+        <meta name="viewport" content="width=device width, initial-scale=1.0"><!--ives the browser instructions on how to control the page's dimensions and scaling. The width=device-width part sets the width of the page to follow the screen-width of the device (which will vary depending on the device).-->
+        <link rel="stylesheet" href="converter.css">
+        <title>Number Converter</title>
+    </head>
+    <body>
+            <section id="body-section"><!--this is a section element with body-section id that can be used to style with css or manipulate using javascript -->
+                <div id="display-section"><!--div is the content inside the section with display-section id that is used to dislay data such as messages or result-->
+                    <div id="input-section"><!--this is another div with input-section id that is used only for input related components-->
+                        <input type="text" id="input-number"><!--this input in the div alows for text input and the input number under the id shows that the values expected should be numerical-->
+                    </div>
+                    <!--Basically, the <div> is used to group together othe HTML elements for styling or scriting purposes-->
+                        <div id="conv-section">
+                            <select id="options"><!--the select option offers a set of predefined options droping downwards when pressed... the options under id allows for the defining of the options required and alo useful in styling in css and access by javascript -->
+                                <option value="What is the base">What is the current base?</option>
+                                <option value="decimal">Decimal</option>
+                                <option value="binary">Binary</option>
+                                <option value="octal">Octal</option>
+                                <option value="hexadecimal">Hexadecimal</option>
+
+                            </select>
+                        </div>
+                        <div id="output-section">
+                            0
+                        </div>
+                        </div>
+
+                        <div id="button-section"><!--the button-section under the id simply suggests that it is used to hold buttons such as submit or some type of shit idk -->
+                            <button id="decimal" class="input-btn">Decimal</button>
+                            <button id="binary" class="input-btn">Binary</button>
+                            <button id="octal" class="input-btn">Octal</button>
+                            <button id="hexadecimal" class="input-btn">Hexadecimal</button>
+                        </div>
+                        </section>
+                        <script src="converter.js"></script><!--src is a specifier... specifies which file should be used in the current html code-->
+                        </body>
+                        </html>
+
+                </body>
