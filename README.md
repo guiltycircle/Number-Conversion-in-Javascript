@@ -1,7 +1,7 @@
  <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8"><!--makes it possible to use emojis and other characters outside of the ASCII character set on your webpage.-->
+        <meta charset="UTF-8">
         <meta name="viewport" content="width=device width, initial-scale=1.0"><!--ives the browser instructions on how to control the page's dimensions and scaling. The width=device-width part sets the width of the page to follow the screen-width of the device (which will vary depending on the device).-->
         <link rel="stylesheet" href="converter.css">
         <title>Number Converter</title>
